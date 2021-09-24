@@ -19,7 +19,7 @@ func (c Communicator) new(host string, token string) Communicator {
 }
 
 func (c *Communicator) call(url string) ([]byte, error) {
-fmt.Println("Call ",  c.host+url)
+	fmt.Println("Call ", c.host+url)
 	req, err := http.NewRequest("GET", c.host+url, nil)
 	if err != nil {
 		return nil, err
