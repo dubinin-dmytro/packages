@@ -1,4 +1,4 @@
-package main
+package ABTower
 
 type LapInfoResponse struct {
 	Success bool    `json:"success"`
