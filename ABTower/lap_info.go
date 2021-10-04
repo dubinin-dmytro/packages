@@ -10,70 +10,70 @@ type LapInfo struct {
 	EventList struct {
 		Original struct {
 			Total struct {
-				Number int `json:"number"`
+				Number float64 `json:"number"`
 			} `json:"total"`
 			Registered struct {
-				Number     int     `json:"number"`
+				Number     float64 `json:"number"`
 				Conversion float64 `json:"conversion"`
 			} `json:"registered"`
 			ChoiceShow struct {
-				Number     int     `json:"number"`
+				Number     float64 `json:"number"`
 				Conversion float64 `json:"conversion"`
 			} `json:"choice_show"`
 			GoToEditor struct {
-				Number     int     `json:"number"`
+				Number     float64 `json:"number"`
 				Conversion float64 `json:"conversion"`
 			} `json:"go_to_editor"`
 			Payment struct {
-				Number     int     `json:"number"`
+				Number     float64 `json:"number"`
 				Conversion float64 `json:"conversion"`
 			} `json:"payment"`
 			AmountToTotal struct {
 				Number float64 `json:"number"`
 			} `json:"amount_to_total"`
 			SupportTicket struct {
-				Number int `json:"number"`
+				Number float64 `json:"number"`
 			} `json:"support_ticket"`
 			SubscriptionCancel struct {
-				Number     int     `json:"number"`
+				Number     float64 `json:"number"`
 				Conversion float64 `json:"conversion"`
 			} `json:"subscription_cancel"`
 			Refund struct {
-				Number     int     `json:"number"`
+				Number     float64 `json:"number"`
 				Conversion float64 `json:"conversion"`
 			} `json:"refund"`
 			WillPay struct {
-				Number     int     `json:"number"`
+				Number     float64 `json:"number"`
 				Conversion float64 `json:"conversion"`
 			} `json:"will_pay"`
 			WillPayAmount struct {
-				Number int `json:"number"`
+				Number float64 `json:"number"`
 			} `json:"will_pay_amount"`
 			WillPayAmountToTotal struct {
 				Number float64 `json:"number"`
 			} `json:"will_pay_amount_to_total"`
 			CanceledBeforePay struct {
-				Number     int     `json:"number"`
+				Number     float64 `json:"number"`
 				Conversion float64 `json:"conversion"`
 			} `json:"canceled_before_pay"`
 			CanceledBeforePayAmount struct {
 				Number float64 `json:"number"`
 			} `json:"canceled_before_pay_amount"`
 			PartialRefund struct {
-				Number     int     `json:"number"`
+				Number     float64 `json:"number"`
 				Conversion float64 `json:"conversion"`
 			} `json:"partial_refund"`
 			SupportChat struct {
-				Number int `json:"number"`
+				Number float64 `json:"number"`
 			} `json:"support_chat"`
 			SupportCall struct {
-				Number int `json:"number"`
+				Number float64 `json:"number"`
 			} `json:"support_call"`
 			PaymentAmount struct {
-				Number int `json:"number"`
+				Number float64 `json:"number"`
 			} `json:"payment_amount"`
 			CcGiven struct {
-				Number int `json:"number"`
+				Number float64 `json:"number"`
 			} `json:"cc_given"`
 			CcGivenAmount struct {
 				Number float64 `json:"number"`
@@ -81,70 +81,70 @@ type LapInfo struct {
 		} `json:"original"`
 		MultiCurl struct {
 			Total struct {
-				Number int `json:"number"`
+				Number float64 `json:"number"`
 			} `json:"total"`
 			Registered struct {
-				Number     int     `json:"number"`
+				Number     float64 `json:"number"`
 				Conversion float64 `json:"conversion"`
 			} `json:"registered"`
 			ChoiceShow struct {
-				Number     int     `json:"number"`
+				Number     float64 `json:"number"`
 				Conversion float64 `json:"conversion"`
 			} `json:"choice_show"`
 			GoToEditor struct {
-				Number     int     `json:"number"`
+				Number     float64 `json:"number"`
 				Conversion float64 `json:"conversion"`
 			} `json:"go_to_editor"`
 			Payment struct {
-				Number     int     `json:"number"`
+				Number     float64 `json:"number"`
 				Conversion float64 `json:"conversion"`
 			} `json:"payment"`
 			AmountToTotal struct {
 				Number float64 `json:"number"`
 			} `json:"amount_to_total"`
 			SupportTicket struct {
-				Number int `json:"number"`
+				Number float64 `json:"number"`
 			} `json:"support_ticket"`
 			SubscriptionCancel struct {
-				Number     int     `json:"number"`
+				Number     float64 `json:"number"`
 				Conversion float64 `json:"conversion"`
 			} `json:"subscription_cancel"`
 			Refund struct {
-				Number     int     `json:"number"`
+				Number     float64 `json:"number"`
 				Conversion float64 `json:"conversion"`
 			} `json:"refund"`
 			WillPay struct {
-				Number     int     `json:"number"`
+				Number     float64 `json:"number"`
 				Conversion float64 `json:"conversion"`
 			} `json:"will_pay"`
 			WillPayAmount struct {
-				Number int `json:"number"`
+				Number float64 `json:"number"`
 			} `json:"will_pay_amount"`
 			WillPayAmountToTotal struct {
 				Number float64 `json:"number"`
 			} `json:"will_pay_amount_to_total"`
 			CanceledBeforePay struct {
-				Number     int     `json:"number"`
+				Number     float64 `json:"number"`
 				Conversion float64 `json:"conversion"`
 			} `json:"canceled_before_pay"`
 			CanceledBeforePayAmount struct {
 				Number float64 `json:"number"`
 			} `json:"canceled_before_pay_amount"`
 			PartialRefund struct {
-				Number     int     `json:"number"`
+				Number     float64 `json:"number"`
 				Conversion float64 `json:"conversion"`
 			} `json:"partial_refund"`
 			SupportChat struct {
-				Number int `json:"number"`
+				Number float64 `json:"number"`
 			} `json:"support_chat"`
 			SupportCall struct {
-				Number int `json:"number"`
+				Number float64 `json:"number"`
 			} `json:"support_call"`
 			PaymentAmount struct {
 				Number float64 `json:"number"`
 			} `json:"payment_amount"`
 			CcGiven struct {
-				Number int `json:"number"`
+				Number float64 `json:"number"`
 			} `json:"cc_given"`
 			CcGivenAmount struct {
 				Number float64 `json:"number"`
