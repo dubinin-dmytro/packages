@@ -121,7 +121,7 @@ type LapInfo struct {
 				Number int `json:"number"`
 			} `json:"will_pay_amount"`
 			WillPayAmountToTotal struct {
-				Number int `json:"number"`
+				Number float64 `json:"number"`
 			} `json:"will_pay_amount_to_total"`
 			CanceledBeforePay struct {
 				Number     int     `json:"number"`
