@@ -57,7 +57,7 @@ type LapInfo struct {
 				Conversion float64 `json:"conversion"`
 			} `json:"canceled_before_pay"`
 			CanceledBeforePayAmount struct {
-				Number int `json:"number"`
+				Number float64 `json:"number"`
 			} `json:"canceled_before_pay_amount"`
 			PartialRefund struct {
 				Number     int     `json:"number"`
