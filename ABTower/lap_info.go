@@ -14,54 +14,54 @@ type LapInfo struct {
 			} `json:"total"`
 			Registered struct {
 				Number     int     `json:"number"`
-				Conversion float32 `json:"conversion"`
+				Conversion float64 `json:"conversion"`
 			} `json:"registered"`
 			ChoiceShow struct {
 				Number     int     `json:"number"`
-				Conversion float32 `json:"conversion"`
+				Conversion float64 `json:"conversion"`
 			} `json:"choice_show"`
 			GoToEditor struct {
 				Number     int     `json:"number"`
-				Conversion float32 `json:"conversion"`
+				Conversion float64 `json:"conversion"`
 			} `json:"go_to_editor"`
 			Payment struct {
 				Number     int     `json:"number"`
-				Conversion float32 `json:"conversion"`
+				Conversion float64 `json:"conversion"`
 			} `json:"payment"`
 			AmountToTotal struct {
-				Number int `json:"number"`
+				Number float64 `json:"number"`
 			} `json:"amount_to_total"`
 			SupportTicket struct {
 				Number int `json:"number"`
 			} `json:"support_ticket"`
 			SubscriptionCancel struct {
 				Number     int     `json:"number"`
-				Conversion float32 `json:"conversion"`
+				Conversion float64 `json:"conversion"`
 			} `json:"subscription_cancel"`
 			Refund struct {
 				Number     int     `json:"number"`
-				Conversion float32 `json:"conversion"`
+				Conversion float64 `json:"conversion"`
 			} `json:"refund"`
 			WillPay struct {
 				Number     int     `json:"number"`
-				Conversion float32 `json:"conversion"`
+				Conversion float64 `json:"conversion"`
 			} `json:"will_pay"`
 			WillPayAmount struct {
 				Number int `json:"number"`
 			} `json:"will_pay_amount"`
 			WillPayAmountToTotal struct {
-				Number int `json:"number"`
+				Number float64 `json:"number"`
 			} `json:"will_pay_amount_to_total"`
 			CanceledBeforePay struct {
 				Number     int     `json:"number"`
-				Conversion float32 `json:"conversion"`
+				Conversion float64 `json:"conversion"`
 			} `json:"canceled_before_pay"`
 			CanceledBeforePayAmount struct {
 				Number int `json:"number"`
 			} `json:"canceled_before_pay_amount"`
 			PartialRefund struct {
 				Number     int     `json:"number"`
-				Conversion float32 `json:"conversion"`
+				Conversion float64 `json:"conversion"`
 			} `json:"partial_refund"`
 			SupportChat struct {
 				Number int `json:"number"`
@@ -115,7 +115,7 @@ type LapInfo struct {
 			} `json:"refund"`
 			WillPay struct {
 				Number     int     `json:"number"`
-				Conversion float32 `json:"conversion"`
+				Conversion float64 `json:"conversion"`
 			} `json:"will_pay"`
 			WillPayAmount struct {
 				Number int `json:"number"`
